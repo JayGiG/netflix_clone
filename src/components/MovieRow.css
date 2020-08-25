@@ -1,0 +1,35 @@
+.movieRow{
+    margin-bottom: 30px;
+}
+
+.movieRow h2{
+    margin: 0px 0px 0px 30px;
+}
+
+/* Tudo que passar da tela na horizontal será cortado */
+.movieRow--listarea{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieRow--list{
+    width: 99999999px;;
+}
+
+/* coloca os itens um ao lado do outro */
+.movieRow--item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+    border-radius: 30px;
+}
+
+.movieRow--item img:hover{
+    transform: scale(1);
+}
