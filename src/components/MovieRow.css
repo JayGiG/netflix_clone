@@ -13,7 +13,7 @@
 }
 
 .movieRow--list{
-    width: 99999999px;;
+    transition: all ease 0.5s;
 }
 
 /* coloca os itens um ao lado do outro */
@@ -25,11 +25,47 @@
 
 .movieRow--item img{
     width: 100%;
-    transform: scale(0.9);
+    transform: scale(0.9); /* imagem tem 100% de largura mas é diminuido pra ter 90% (0.9)*/
     transition: all ease 0.3s;
     border-radius: 30px;
 }
 
 .movieRow--item img:hover{
-    transform: scale(1);
+    transform: scale(1); /* quando o mouse passar em cima da imagem ele volta pra escala de 100% */
+}
+
+.movieRow--left,
+.movieRow--right{
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0 ;
+    transition: all ease 0.5s;
+}
+
+.movieRow--left{
+    left: 0;
+}
+
+.movieRow--right{
+    right: 0;
+}
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right{
+    opacity: 1;
+}
+
+@media (max-width:760px){
+    .movieRow--left,
+    .movieRow--right{
+        opacity: 1;
+    }
 }
