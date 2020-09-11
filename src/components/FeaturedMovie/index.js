@@ -1,5 +1,5 @@
 import React from 'react';
-import './FeaturedMovie.css';
+import './style.css';
 
 export default ({item}) => {
 
@@ -48,8 +48,6 @@ export default ({item}) => {
                 </div>
             </div>
 
-
-            {/* <div>{item.original_name}</div> */}
         </section>
         
     )
