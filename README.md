@@ -1,7 +1,7 @@
-<h1 align="center"> Recriando a página da Rocketseat <h1>
+<h1 align="center"> Recriando a página inicial da Netflix <h1>
 
-<h1> <img src="public/page_personal.gif" alt=""> <h1>
-
+<h1> <img src="img/img_1.png" alt=""> 
+<h1> <img src="img/img_2.png" alt="">
 
 # Indice
 - [Sobre](#-sobre)
@@ -11,7 +11,7 @@
 ---
 
 # 📋 Sobre
-Projeto **Página pessoal** é uma página desenvolvida como sugestão de um dos desafios dentro do curso  **Bootcamp Launchbase** com o intuito de colocarmos em prática todo o conteúdo estudado.
+Projeto **Clone Netflx** é uma página desenvolvida com fins educativos para consolidar conceitos de programação com **React**
 
 
 ---
@@ -24,7 +24,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [Javascript](https://www.w3schools.com/js/default.asp)
 - [Node.js](https://nodejs.org/en/)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
+- [React](https://pt-br.reactjs.org/)
 
 
 ---
@@ -33,16 +33,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ```bash
 
     #Clonar repositório
-    $ git clone https://github.com/JayG32/page_personal
+    $ git clone https://github.com/JayG32/netflix_clone
 
     #Entre na pasta do projeto
-    cd page_personal
+    cd netflix_clone
 
     #Instale as dependencias
-    yarn install
+    npm install
 
     #Execute a aplicação
-    yarn start
+    npm start
 
 ```
 
